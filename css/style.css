@@ -1307,7 +1307,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 --------------------------------------------------------------*/
 .footer {
   background: #2a2c30;
-  padding-top: 50px;
+  padding-top: 010px;
 }
 
 .footer .footer-logo .navbar-brand {
@@ -1331,7 +1331,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .footer .list-menu > h4 {
   color: #fff;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 
 .footer .list-menu ul li a {
