@@ -38,8 +38,7 @@
 
 <body>
 
-
-<header id="header" class="header header-hide">
+  <header id="header" class="header header-hide">
     <div class="container">
 
       <div id="logo" class="pull-left">
@@ -51,13 +50,13 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class=""><a href="index.html">Home</a></li>
-          <li class = "menu-active"><a href = "AboutUs.html">About Us</a></li>
+          <li class = ""><a href = "AboutUs.html">About Us</a></li>
           <li class="menu-has-children"><a href="coding_course.html">Coding Course</a>
             <ul>
               <li><a href="python_course.html">Python</a></li>
             </ul>
           <li>
-          <li class = "menu-has-children"><a href="business_course.html">Business Course</a>
+          <li class = "menu-has-children menu-active"><a href="business_course.html">Business Course</a>
               <ul>
               <li><a href="finance_course.html">Finance</a></li>
             </ul>
@@ -65,73 +64,129 @@
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
-  </header><!-- #header -->s
+  </header><!-- #header -->
+
 
   <!--==========================
-    Get Started Section
+    BusinessContents Section
   ============================-->
-  <section id="get-started" class="padd-section text-center wow fadeInUp">
+
+  <section id="BusinessContents" class="padd-section text-center wow fadeInUp">
 
     <div class="container">
       <div class="section-title text-center">
-
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-
-        <h2>What is BizCode?</h2>
-        <p class="separator">The BizCode initiative is project created by a group of high schoolers in Fremont, California that aims to teach the future generation important skills such as coding and business management.</p>
-
+        <h2>Welcome to our Business Course</h2>
+        <p class="separator">By our senior business instructor Sahej Virk</p>
       </div>
     </div>
 
     <div class="container">
       <div class="row">
-
-        <div class="col-md-6 col-lg-4">
+          
+    <div class="row align-items-center justify-content-center">
+        <div class="col-md-4 col-lg-4">
           <div class="feature-block">
-
-            <img src="img/svg/cloud.svg" alt="img" class="img-fluid">
-            <h4>Our Programs</h4>
-            <p>Our course on introductory business development teachs you fundementals such as personal finance and more. Also check out CodeCrew, our beginner-friendly course on web development and computer science languages such as HTML/CSS and Python.</p>
-            <!--
-            <a href="#">read more</a>
-            -->
-
+              <a href = "finance_course.html">
+            <img src="img/svg/finance.png" alt="img" class="img-fluid">
+            <h4>unit 1: finance</h4>
+            </a>
+            <p>Finance is the management of money by governments, companies, or individuals, which involves activities like investing, borrowing, lending, budgeting, saving, and forecasting.</p>
+             
           </div>
         </div>
-
-        <div class="col-md-6 col-lg-4">
+    </div>
+          
+          
+    <div class="row align-items-center justify-content-center">
+        <div class="col-md-4 col-lg-4">
           <div class="feature-block">
-
-            <img src="img/svg/planet.svg" alt="img" class="img-fluid">
-            <h4>Our Location</h4>
-            <p>Come join us at the Alemeda County Fremont Main Library!</p>
-            <!-- <a href="#">read more</a> -->
-
+              <a href = "finance_course.html">
+            <img src="img/svg/MoneyInterest.png" alt="img" class="img-fluid">
+            <h4>unit 2: money &amp; interest</h4>
+                 </a>
+            <p>Interest is payment from a borrower or deposit-taking financial institution to a lender or depositor of an amount above repayment of the principal sum, at a particular rate. </p>
+            
           </div>
         </div>
+    </div>
 
-        <div class="col-md-6 col-lg-4">
-          <div class="feature-block">
-
-            <img src="img/svg/asteroid.svg" alt="img" class="img-fluid">
-            <h4>build the app everyone love</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-            <!--<a href="#">read more</a>-->
-
-          </div>
-        </div>
 
       </div>
     </div>
-
   </section>
 
 
+ 
+  <!--==========================
+    Newsletter Section
+  ============================-->
+  <section id="newsletter" class="newsletter text-center wow fadeInUp">
+    <div class="overlay padd-section">
+      <div class="container">
+
+        <div class="row justify-content-center">
+          <div class="col-md-9 col-lg-6">
+            <form class="form-inline" method="POST" action="#">
+
+              <input type="email" class="form-control " placeholder="Email Adress" name="email">
+              <button type="submit" class="btn btn-default"><i class="fa fa-location-arrow"></i>Subscribe</button>
+
+            </form>
+
+          </div>
+        </div>
+
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Contact Section
+  ============================-->
+  <section id="contact" class="padd-section wow fadeInUp">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Contact</h2>
+        <p class="separator"> </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <div class="col-lg-3 col-md-4">
+
+          <div class="info">
+            <div>
+              <i class="fa fa-map-marker"></i>
+              <p>38442 Fremont Blvd, Fremont, CA 94536</p>
+            </div>
+
+            <div class="email">
+              <i class="fa fa-envelope"></i>
+              <p>bizcodeinitiative@gmail.com</p>
+            </div>
+
+            <div>
+            
+            </div>
+          </div>
+
+    
+
+        </div>
+      </div>
+    </div>
+  </section><!-- #contact -->
 
   <!--==========================
     Footer
@@ -168,6 +223,7 @@
         </div>
       </div>
     </div>
+
   </footer>
 
 
