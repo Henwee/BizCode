@@ -1,4 +1,6 @@
 @charset "UTF-8";
+
+
 /*
   Theme Name: eStartup
   Theme URL: https://bootstrapmade.com/estartup-bootstrap-landing-page-template/
@@ -529,9 +531,61 @@ body.mobile-nav-active #mobile-nav-toggle i {
   color: #fff;
 }
 
+
+
+
+}
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
+
+/***********************************************/
+/***************** Accordion ********************/
+# accordion {
+	padding: 60px 0;
+}
+
+#accordion-style-1 h1,
+#accordion-style-1 a{
+    color:#71c55d;
+    margin-top: 100px;
+}
+#accordion-style-1 .btn-link {
+    font-weight: 400;
+    color: #71c55d;
+    background-color: transparent;
+    text-decoration: none !important;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+	padding-left: 25px;
+}
+
+#accordion-style-1 .card-body {
+    border-top: 2px solid #007b5e;
+}
+
+#accordion-style-1 .card-header .btn.collapsed .fa.main{
+	display:none;
+}
+
+#accordion-style-1 .card-header .btn .fa.main{
+	background: #71c55d;
+    padding: 13px 11px;
+    color: #ffffff;
+    width: 35px;
+    height: 41px;
+    position: absolute;
+    left: -1px;
+    top: 10px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+	display:block;
+}
+
+/***********************************************/
+
+
 .padd-section {
   padding-bottom: 80px;
   padding-top: 80px;
@@ -621,6 +675,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #get-started .feature-block a:hover {
   color: #71c55d;
 }
+
 
 /* About Us Section
 --------------------------------*/
